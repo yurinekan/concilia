@@ -1,0 +1,33 @@
+<ion-content>
+  <div class="logo">
+    <ion-img src="../../../assets/concilia.png"></ion-img>
+  </div>
+
+  <ion-list>
+    <ion-item lines="full">
+      <ion-label position="floating">E-mail</ion-label>
+      <ion-input [(ngModel)]="email" class="login" type="email">
+      </ion-input>
+    </ion-item>
+
+    <ion-item lines="full">
+      <ion-label position="floating">Senha</ion-label>
+      <ion-icon *ngIf="this.eye" (click)="seePass()" slot="end" size="small" name="eye-off-outline"></ion-icon>
+      <ion-icon *ngIf="!this.eye" (click)="seePass()" slot="end" size="small" name="eye-outline"></ion-icon>
+
+      <ion-input [(ngModel)]="pass" class="login" type="password">
+      </ion-input>
+    </ion-item>
+  </ion-list>
+
+  <div class="register">
+    <span (click)='nav("register")'>Não tem uma conta?
+      <u>Cadastre-se</u></span>
+  </div>
+  <div class="log-in">
+    <ion-button (click)='login()'>Entrar</ion-button>
+  </div>
+</ion-content>
+<ion-footer>
+  <p (click)='nav("about")'>Quem somos nós?</p>
+</ion-footer>

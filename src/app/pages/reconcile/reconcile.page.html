@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Conciliação</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-list lines="full">
+      <ion-item>
+        <ion-icon slot="end" name="checkmark-circle-outline"></ion-icon>
+        <ion-label>
+          Documento aprovado
+        </ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-icon slot="end" name="ellipse-outline"></ion-icon>
+        <ion-label>
+          Documento em falta
+        </ion-label>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+  <ion-footer>
+    <div text-center>
+      <p>*Só podemos dar início a mediação após o envio de todos os documentos.</p>
+      <ion-button (click)="back()">Voltar ao início</ion-button>
+    </div>
+</ion-footer>

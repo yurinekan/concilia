@@ -1,0 +1,26 @@
+<ion-header [translucent]="true">
+  <ion-toolbar style="border: none">
+    <ion-title>
+      Acompanhamento
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Acompanhamento</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <div class="case" (click)="openReq('solo-req')">
+    <p>Requerimento: 210</p>
+  </div>
+  <div class="case" (click)="openReq('solo-req')">
+    <p>Requerimento: 203</p>
+  </div>
+  <div class="caseMoney">
+    <p>Módulo financeiro</p>
+  </div>
+
+  <app-explore-container name="Tab 1 page"></app-explore-container>
+</ion-content>

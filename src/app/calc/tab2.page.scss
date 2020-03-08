@@ -1,0 +1,23 @@
+ion-content ion-toolbar {
+  --background: translucent;
+  font-size: 150%;
+}
+.res {
+  margin-top: 16px;
+  text-align: center;
+}
+ion-item {
+  --background: rgb(240, 240, 240);
+  &:first-child {
+    margin-top: -8px;
+  }
+}
+ion-button {
+  --background: #67C5E0;
+  --background-activated: rgb(83, 167, 190);
+
+}
+ion-footer {
+  display:flex;
+  justify-content: center;
+}

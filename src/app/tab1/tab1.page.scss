@@ -1,0 +1,28 @@
+ion-content ion-toolbar {
+  --background: translucent;
+  font-size: 150%;
+}
+.case {
+  display: flex;
+  margin: 16px;
+  height: 10%;
+  border: 2px solid #67C5E0;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  font-size: 22pt;
+  font-weight: 600;
+  color: #521f57;
+}
+.caseMoney {
+  display: flex;
+  margin: 16px;
+  height: 10%;
+  border: 2px solid rgb(103, 224, 119);
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  font-size: 22pt;
+  font-weight: 600;
+  color: #521f57;
+}
