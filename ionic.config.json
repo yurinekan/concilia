@@ -1,5 +1,7 @@
 {
   "name": "dialog",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
